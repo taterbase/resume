@@ -9,7 +9,7 @@ $(function() {
     $(this).data('padding-top', +$(this).css('padding-top').replace('px', ''))
   })
 
-  $(window).scroll(function() {
+  function handleScroll () {
     $parallaxBackground.each(function() {
       ypos = $(window).scrollTop() / $(this).data('speed')
       $(this).css({backgroundPosition: '0px ' + ypos + 'px'})
@@ -18,7 +18,10 @@ $(function() {
       ypos =  ($(window).scrollTop() / $(this).data('speed')) + $(this).data('padding-top')
       $(this).css({paddingTop: ypos + 'px'})
     })
-  })
+  }
+
+  $(window).scroll(handleScroll)
+  $(window).on('touchmove', handleScroll)
 
   var $body = $('body')
   $('a').click(function() {
