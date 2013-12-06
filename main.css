@@ -31,6 +31,10 @@ body {
   background-repeat: no-repeat;
 }
 
+#call-to-action {
+  padding: 35px;
+}
+
 nav.navbar {
   width: 100%;
 }
