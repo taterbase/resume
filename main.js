@@ -1,5 +1,7 @@
 $(function() {
 
+  console.log(window.location.hash)
+
   $('.navbar-sticky').sticky({topSpacing: 0})
 
   $parallaxBackground = $('*[data-type="parallax-background"]')

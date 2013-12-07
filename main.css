@@ -13,8 +13,9 @@ body {
   color: #E21818;
 }
 
-#home.jumbotron {
+#me.jumbotron {
   padding-top: 0;
+  margin-bottom: 0;
 }
 
 #tagline {
@@ -25,7 +26,7 @@ body {
   text-shadow: 2px 2px #030303;
   color: #ffffff;
   text-align: center;
-  background-image: url(george3.jpg);
+  background-image: url(george2.jpg);
   background-size: cover;
   height: 500px;
   background-repeat: no-repeat;
@@ -35,10 +36,52 @@ body {
   padding: 35px;
 }
 
+#call-to-action h2 {
+  text-align: center;
+}
+
 nav.navbar {
   width: 100%;
 }
 
-section.topic {
-  padding-top: 50px;
+#you .you-logo {
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+#you .overlay {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQIHWNgYGD4D8RYATUlAP5qBPz0Jw6ZAAAAAElFTkSuQmCC) repeat;
+  padding: 25px;
+}
+
+.about-you {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: #fff;
+}
+
+.about-you p {
+  font-size: 16px;
+}
+
+#irccloud {
+  background: #094A91;
+}
+
+#mongohq {
+  background: #0C7EB9;
+}
+
+#github {
+  background: #5CB1B7;
+}
+
+#github .you-logo {
+  background: #DEFDFF;
+}
+
+#extras {
+  background: #f7f7f7;
+  padding: 50px;
 }
