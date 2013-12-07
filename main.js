@@ -1,6 +1,11 @@
 $(function() {
 
-  console.log(window.location.hash)
+  var hash = window.location.hash;
+
+  if(hash) {
+    $('.generic').hide()
+    $(hash.replace('#', '')).show()
+  }
 
   $('.navbar-sticky').sticky({topSpacing: 0})
 
