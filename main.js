@@ -4,7 +4,7 @@ $(function() {
 
   if(hash) {
     $('.generic').hide()
-    $(hash).show()
+    $(hash + '-section').show()
   }
 
   $('.navbar-sticky').sticky({topSpacing: 0})

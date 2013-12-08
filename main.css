@@ -39,7 +39,7 @@ body {
   text-shadow: 2px 2px #030303;
   color: #ffffff;
   text-align: center;
-  background-image: url(george2.jpg);
+  background-image: url(george5.jpg);
   background-size: cover;
   height: 500px;
   background-repeat: no-repeat;
@@ -78,19 +78,19 @@ nav.navbar {
   font-size: 16px;
 }
 
-#irccloud {
+#irccloud-section {
   background: #094A91;
 }
 
-#mongohq {
+#mongohq-section {
   background: #0C7EB9;
 }
 
-#github {
+#github-section {
   background: #0F4578;
 }
 
-#github .you-logo {
+#github-section .you-logo {
   background: #DEFDFF;
 }
 
