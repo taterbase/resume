@@ -6,6 +6,11 @@ body {
   display: none;
 }
 
+.company .content{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .generic {
   display: block;
 }
@@ -82,7 +87,7 @@ nav.navbar {
 }
 
 #github {
-  background: #5CB1B7;
+  background: #0F4578;
 }
 
 #github .you-logo {
