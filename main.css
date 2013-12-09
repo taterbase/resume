@@ -98,3 +98,7 @@ nav.navbar {
   background: #f7f7f7;
   padding: 80px 80px;
 }
+
+#extras li {
+  font-size: 19px;
+}
